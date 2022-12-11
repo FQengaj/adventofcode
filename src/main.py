@@ -4,7 +4,7 @@ from importlib import import_module
 today = date.today().day
 
 
-today = 5
+today = 7
 CurrMod = import_module(f"Days.Day{today}")
 
 
