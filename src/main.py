@@ -5,7 +5,7 @@ import sys
 today = date.today().day
 
 
-today = 12
+today = 13
 try:
     CurrMod = import_module(f"Days.Day{today}")
 except:
